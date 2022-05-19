@@ -15,11 +15,11 @@ contaCorrenteLarissa.cliente = cliente1;
 contaCorrenteLarissa.depositar(500);
 
 const conta2 = new ContaCorrente();
-conta2.cliente = cliente2;
+conta2.cliente = cliente1;
 conta2.agencia = 102;
 
 let valor = 200;
 contaCorrenteLarissa.tranferir(valor, conta2);
 
 console.log("valor:", valor);
-console.log(conta2);
+console.log(conta2.cliente);
